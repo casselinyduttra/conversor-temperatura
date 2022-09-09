@@ -1,0 +1,77 @@
+body {
+  font-family: "Times New Romar ", monospace;
+  min-height: 400px;
+  background-image: url("https://www.financebrokerage.com/wp-content/uploads/2019/01/FinanceBrokerage-Currency-Pound-recovers-as-dollar-tittle-changed-.jpg");
+  background-size: 200vh;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
+
+.conversor {
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    rgba(2, 2, 2, 2)
+  );
+  width: 370px;
+  height: 320px;
+  display: block;
+  box-sizing: border-box;
+  border-radius: 10px;
+  gap: 20px;
+  padding-top: 20px;
+}
+
+.corpo {
+  text-align: left;
+  padding: 45px 45px 45px;
+  height: 100vh;
+}
+
+.page-title {
+  color: black;
+  margin: 70px 200px 30px;
+}
+
+.page-subtitle {
+  color: black;
+  margin-top: 15px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 10px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+input {
+  color: white;
+  margin: 18px;
+  padding: 6px 10px 5px;
+  border-radius: 50px;
+  background-color: black;
+  margin-left: 50px;
+}
+
+label {
+  color: whitesmoke;
+  margin-left: 50px;
+}
+
+button {
+  margin-top: 12px 15px 15px;
+  padding: 4px 8px;
+  border-radius: 50px;
+  margin-left: 100px;
+}
+
+h2 {
+  color: whitesmoke;
+  font-size: 15px;
+  margin-left: 50px;
+}
