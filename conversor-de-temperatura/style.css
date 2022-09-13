@@ -1,0 +1,60 @@
+
+body {
+  font-family: "Roboto Mono";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("https://mpshirts.com/wp-content/uploads/2020/07/bart-simpson.jpg");
+  background-size: cover;
+  text-shadow: gray 0 0 1px;
+}
+
+.caixa {
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  padding: 15px 15px;
+  width: 450px;
+  height: 320px;
+  border-radius: 80px;
+  text-align: center;
+  background: whitesmoke;
+  box-shadow: yellow 2px 5px 10px;
+}
+.inputs {
+  font-size: 18px;
+  font-family: monospace;
+}
+
+
+#input-celsius {
+  height: 30px;
+  width: 90px;
+  text-align: center;
+  border: 1px solid gray;
+  border-radius: 10px;
+  background: inherit;
+  color: inherit;
+}
+button {
+  width: 230px;
+  height: 45px;
+  border: 1px solid gray;
+  font-family: "Roboto Mono", monospace;
+  font-size: 16px;
+  color: black;
+  margin-top: 12px;
+  padding: 6px 10px;
+  border-radius: 10px;
+  background: inherit;
+}
+
+h3{
+  color: black;
+  font-size: 15px;
+  padding: 20px; 
+}
+
